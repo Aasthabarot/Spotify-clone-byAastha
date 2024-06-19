@@ -145,3 +145,32 @@ nav ul li{
     
     cursor: pointer;
 }
+
+
+@media (max-width:768px) 
+{
+    .bottom
+    {
+        height: 150px;
+       
+    }
+    .song-info
+    {
+        bottom: 30px;
+    }
+    .b-icons
+    {
+        right: 10vw;
+        position: absolute;
+        bottom: 15px;
+    }
+}
+
+@media (max-width:425px) 
+{
+
+ .songItem
+ {
+    width: 100%;
+ }
+}
