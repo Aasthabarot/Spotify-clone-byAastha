@@ -96,7 +96,7 @@ nav ul li{
     cursor: pointer;
    
 }
-.songitemcontainer
+.songItemContainer
 {
     margin: 45px 0px;
 }
@@ -131,16 +131,16 @@ nav ul li{
 {
     width: 40px;
     opacity: 0;
-    transition: opacity 1s ease-in  ;
+    transition: opacity 0.4s ease-in  ;
     
 }
-.time-stamp
+.timestamp
 {
     padding: 0px 30px;
     cursor: pointer;
 }
 
-.time-stamp i
+.timestamp i
 {
     
     cursor: pointer;
