@@ -149,6 +149,16 @@ nav ul li{
     cursor: pointer;
 }
 
+/* .songName{
+    display: inline-block;
+    animation: scrollText 10s linear infinite; /* Adjust animation duration as needed */
+
+
+/* Keyframes for scrolling animation 
+@keyframes scrollText {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+} */
 
 @media (max-width:768px) 
 {

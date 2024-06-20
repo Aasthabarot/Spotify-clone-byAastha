@@ -141,3 +141,15 @@ audioElement.addEventListener('ended', () => {
     songIndex = (songIndex + 1) % songs.length;
     playSong(songIndex);
 });
+
+// function updateCurrentSong(songTitle, artist) {
+//     const songElement = document.getElementById('current-song');
+//     songElement.textContent = `${songTitle} - ${artist}`;
+// }
+
+// // Example usage: Update song every 5 seconds (you should adjust this based on your actual use case)
+// setInterval(() => {
+//     const songTitle = 'Example Song'; // Replace with your actual song title
+//     const artist = 'Example Artist'; // Replace with your actual artist name
+//     updateCurrentSong(songTitle, artist);
+// }, 5000); // Update every 5 seconds
